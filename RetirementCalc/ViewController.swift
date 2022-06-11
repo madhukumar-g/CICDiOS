@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         //var value = self.sampleBtn.titleLabel?.accessibilityValue
         //Crashes.generateTestCrash()
         Analytics.trackEvent("Caculate_retirement", withProperties: ["current_age": "44"])
-        print("calucated value is $X", 3333)
+        print("calculated value is $X", 3333)
     }
 }
 
